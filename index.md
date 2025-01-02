@@ -3,19 +3,14 @@ layout: about
 permalink: /
 profile:
   align: right
-  image: profile.png
+  image: profile.jpg
 published: true
 ---
 
-[Gradfolio](https://github.com/jitinnair1/gradfolio){:target="_blank"} is a responsive, dark-mode ready Jekyll theme designed keeping academia in mind. The easiest way to install the theme is to fork it using GitHub. Check the README file for [instructions](https://github.com/jitinnair1/gradfolio#installation){:target="_blank"}.
+I am a Ph.D. candidate working with [Dr. Jean-Baptiste Poline](https://www.mcgill.ca/neuro/jean-baptiste-poline-phd) in the [NeuroDataScience-ORIGAMI](https://neurodatascience.github.io/) lab at McGill University.
 
-If you want to use this space to write your biography here, edit the `index.md` file. You can put a picture in, too. Rename your picture to `profile.png` and put it in the `assets/images/` folder.
+My research focuses on discovering robust neuroimaging biomarkers of Parkinson’s disease progression using machine learning and statistical methods. 
 
-The social-icons footer can be used to link profiles from GitHub, OrcID and ReasearchGate aprart form the usual Twitter, LinkedIn and Facebook. You can add your user ID in the `_config.yml` file to link your accounts.
+A significant part of my current work is dedicated to open-source neuroinformatics software. I am the lead developer of the [Nipoppy](https://nipoppy.readthedocs.io/en/stable/) framework for organizing and processing large neuroimaging-clinical datasets, and I am a core developer of the [Nilearn](https://nilearn.github.io/stable/index.html) package for machine learning in neuroimaging.
 
-PS: If you liked the theme, do star it on GitHub!
-
-### Also, check out:
-
-- [autoCV](https://github.com/jitinnair1/autocv) - a LaTeX template that builds and deploys the CV using GitHub Actions, so you will always have a ready link for your latest CV
-- [Tail](https://github.com/jitinnair1/tail) - a minimal, quick-setup template for a blog
+Contact: [michelle.wang6@mail.mcgill.ca](mailto:michelle.wang6@mail.mcgill.ca)

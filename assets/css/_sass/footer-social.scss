@@ -31,6 +31,7 @@
 }
 
 .rounded-social-buttons .fa-twitter,
+.fa-bluesky,
 .fa-facebook-f,
 .fa-linkedin,
 .fa-github,
@@ -54,15 +55,24 @@
 }
 
 .rounded-social-buttons .social-button.twitter {
-  background: #55acee;
+  background: #000000;
 }
 
 .rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
-  color: #55acee;
+  color: #000000;
   background: #fefefe;
-  border-color: #55acee;
+  border-color: #000000;
 }
 
+.rounded-social-buttons .social-button.bluesky {
+  background: #1185fe;
+}
+
+.rounded-social-buttons .social-button.bluesky:hover, .rounded-social-buttons .social-button.bluesky:focus {
+  color: #1185fe;
+  background: #fefefe;
+  border-color: #1185fe;
+}
 .rounded-social-buttons .social-button.linkedin {
   background: #007bb5;
 }

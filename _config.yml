@@ -5,7 +5,7 @@ description: "PhD candidate"
 
 baseurl: #name of GitHub repository
 url: "https://michellewang.github.io" #custom url to be used instead of GitHub repository
-email: #
+email: 
 
 # Pagination
 paginate: 4
@@ -22,6 +22,7 @@ orcid: "0000-0002-3432-6899"
 # quora: "#"
 # instagram: "#"
 # facebook: "#"
+bluesky: "michellewang.bsky.social"
 
 
 # Markdown

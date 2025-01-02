@@ -8,21 +8,21 @@ href="mailto:{{ site.email | encode_email }}" target="_blank">
 </a>
 {%- endif -%}
 
-{%- if site.linkedin -%}
-<a title="{{ _locale_string_follow | replace: '[NAME]', 'LinkedIn' }}"
-class="social-button linkedin"
-href="https://www.linkedin.com/in/{{ site.linkedin }}" itemprop="sameAs"
-target="_blank">
-<i class="fab fa-linkedin"></i>
-</a>
-{%- endif -%}
-
 {%- if site.github -%}
 <a title="{{ _locale_string_follow | replace: '[NAME]', 'GitHub' }}"
 class="social-button github"
 href="https://www.github.com/{{ site.github }}" itemprop="sameAs"
 target="_blank">
 <i class="fab fa-github"></i>
+</a>
+{%- endif -%}
+
+{%- if site.linkedin -%}
+<a title="{{ _locale_string_follow | replace: '[NAME]', 'LinkedIn' }}"
+class="social-button linkedin"
+href="https://www.linkedin.com/in/{{ site.linkedin }}" itemprop="sameAs"
+target="_blank">
+<i class="fab fa-linkedin"></i>
 </a>
 {%- endif -%}
 
@@ -49,7 +49,16 @@ target="_blank">
 class="social-button twitter"
 href="https://www.twitter.com/{{ site.twitter }}" itemprop="sameAs"
 target="_blank">
-<i class="fab fa-twitter"></i>
+<i class="fa-brands fa-x-twitter"></i>
+</a>
+{%- endif -%}
+
+{%- if site.bluesky -%}
+<a title="{{ _locale_string_follow | replace: '[NAME]', 'Bluesky' }}"
+class="social-button bluesky"
+href="https://bsky.app/profile/{{ site.bluesky }}" itemprop="sameAs"
+target="_blank">
+<i class="fa-brands fa-bluesky"></i>
 </a>
 {%- endif -%}
 

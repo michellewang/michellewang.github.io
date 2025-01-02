@@ -1,11 +1,11 @@
 ### your site title here
 
-title: Your Name
-description: subtitle | affiliations | motto
+title: "Michelle Wang"
+description: ""
 
 baseurl: #name of GitHub repository
 url: "https://michellewang.github.io" #custom url to be used instead of GitHub repository
-email: #
+email: 
 
 # Pagination
 paginate: 4
@@ -13,15 +13,17 @@ permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
 # Social media links in footer
-twitter: "#"
-linkedin: "#"
-stackoverflow: "#"
-github: "#"
-researchgate: "#"
-orcid: "#"
-quora: "#"
-instagram: "#"
-facebook: "#"
+twitter: "michelle__wang"
+linkedin: "michellewang8"
+# stackoverflow: "#"
+github: "michellewang"
+# researchgate: "#"
+orcid: "0000-0002-3432-6899"
+# quora: "#"
+# instagram: "#"
+# facebook: "#"
+bluesky: "michellewang.bsky.social"
+google_scholar: "PujecSgAAAAJ"
 
 
 # Markdown

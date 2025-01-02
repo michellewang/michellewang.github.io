@@ -40,6 +40,7 @@
 .fa-envelope
 .fa-quora
 .fa-instagram
+.fa-google-scholar
 .fa-stack-overflow {
   font-size: 25px;
 }
@@ -62,6 +63,16 @@
   color: #000000;
   background: #fefefe;
   border-color: #000000;
+}
+
+.rounded-social-buttons .social-button.google-scholar {
+  background: #75a4f8;
+}
+
+.rounded-social-buttons .social-button.google-scholar:hover, .rounded-social-buttons .social-button.google-scholar:focus {
+  color: #75a4f8;
+  background: #fefefe;
+  border-color: #75a4f8;
 }
 
 .rounded-social-buttons .social-button.bluesky {

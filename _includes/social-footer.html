@@ -17,12 +17,12 @@ target="_blank">
 </a>
 {%- endif -%}
 
-{%- if site.linkedin -%}
-<a title="{{ _locale_string_follow | replace: '[NAME]', 'LinkedIn' }}"
-class="social-button linkedin"
-href="https://www.linkedin.com/in/{{ site.linkedin }}" itemprop="sameAs"
+{%- if site.google_scholar -%}
+<a title="{{ _locale_string_follow | replace: '[NAME]', 'Google Scholar' }}"
+class="social-button google-scholar"
+href="https://scholar.google.ca/citations?user={{ site.google_scholar }}" itemprop="sameAs"
 target="_blank">
-<i class="fab fa-linkedin"></i>
+<i class="fa-brands fa-google-scholar"></i>
 </a>
 {%- endif -%}
 
@@ -44,12 +44,12 @@ target="_blank">
 </a>
 {%- endif -%}
 
-{%- if site.twitter -%}
-<a title="{{ _locale_string_follow | replace: '[NAME]', 'Twitter' }}"
-class="social-button twitter"
-href="https://www.twitter.com/{{ site.twitter }}" itemprop="sameAs"
+{%- if site.linkedin -%}
+<a title="{{ _locale_string_follow | replace: '[NAME]', 'LinkedIn' }}"
+class="social-button linkedin"
+href="https://www.linkedin.com/in/{{ site.linkedin }}" itemprop="sameAs"
 target="_blank">
-<i class="fa-brands fa-x-twitter"></i>
+<i class="fab fa-linkedin"></i>
 </a>
 {%- endif -%}
 
@@ -59,6 +59,15 @@ class="social-button bluesky"
 href="https://bsky.app/profile/{{ site.bluesky }}" itemprop="sameAs"
 target="_blank">
 <i class="fa-brands fa-bluesky"></i>
+</a>
+{%- endif -%}
+
+{%- if site.twitter -%}
+<a title="{{ _locale_string_follow | replace: '[NAME]', 'Twitter' }}"
+class="social-button twitter"
+href="https://www.twitter.com/{{ site.twitter }}" itemprop="sameAs"
+target="_blank">
+<i class="fa-brands fa-x-twitter"></i>
 </a>
 {%- endif -%}
 

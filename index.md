@@ -13,4 +13,6 @@ My research focuses on discovering robust neuroimaging biomarkers of Parkinsonâ€
 
 A significant part of my current work is dedicated to open-source neuroinformatics software. I am the lead developer of the [Nipoppy](https://nipoppy.readthedocs.io/en/stable/) framework for organizing and processing large neuroimaging-clinical datasets, and I am a core developer of the [Nilearn](https://nilearn.github.io/stable/index.html) package for machine learning in neuroimaging.
 
+See my [GitHub](https://github.com/michellewang?tab=repositories) and [Google Scholar](https://scholar.google.ca/citations?hl=en&user=PujecSgAAAAJ&view_op=list_works&sortby=pubdate) profiles for ongoing/recent projects.
+
 Contact: [michelle.wang6@mail.mcgill.ca](mailto:michelle.wang6@mail.mcgill.ca)

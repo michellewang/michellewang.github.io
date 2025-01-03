@@ -1,0 +1,47 @@
+# - title: ""
+#   event: ""
+#   location: ""
+#   date: ""
+#   pdf: 
+
+- title: "Nipoppy and Neurobagel: Decentralized infrastructure for FAIR neuroimaging-clinical datasets"
+  event: "BIC Scientific Day"
+  location: "Montreal, Canada"
+  date: "November 2024"
+  pdf: "2024_11-BIC_scientific_day.pdf"
+
+- title: "Nipoppy: A framework for the organization and decentralized processing of neuroimaging-clinical data"
+  event: "OHBM Annual Meeting"
+  location: "Seoul, South Korea"
+  date: "June 2024"
+  pdf: "2024_05-HBHL.pdf"
+
+- title: "Nipoppy: A framework for the organization and decentralized processing of neuroimaging-clinical data"
+  event: "HBHL Symposium"
+  location: "Montreal, Canada"
+  date: "May 2024"
+  pdf: "2024_05-HBHL.pdf"
+
+- title: "Cohort composition and sample size impact the replicability of multivariate brain-behavioural associations"
+  event: "QLS Research Day"
+  location: "Montreal, Canada"
+  date: "January 2024"
+  pdf: "2024_01-QLS_research_day.pdf"
+
+- title: "Validating the impact of sample size for modelling brain and behaviour interactions with canonical correlation analysis"
+  event: "INCF Assembly"
+  location: "Online"
+  date: "September 2022"
+  pdf: "2022_09-INCF.pdf"
+
+- title: "Integrative phenomic analysis of psychosocial factors and their genetic associations in major depressive disorder using a latent topic model approach"
+  event: "ASHG Annual Meeting"
+  location: "Online"
+  date: "October 2021"
+  pdf: "2021_10-ASHG.pdf"
+
+- title: "Developing methods to cross-validate nonlinear models of synchronization"
+  event: "CREATE Symposium in Nonlinear Dynamics of Brain and Behaviour"
+  location: "Online"
+  date: "August 2021"
+  pdf: "2021_08-CREATE.pdf"

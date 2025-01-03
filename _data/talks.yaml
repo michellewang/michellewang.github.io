@@ -1,0 +1,17 @@
+# - title: ""
+#   event: ""
+#   location: ""
+#   date: ""
+#   pdf: 
+
+- title: "Nipoppy: A framework for the organization and decentralized processing of neuroimaging-clinical studies"
+  event: "Open Science in Action Symposium"
+  location: "Montreal, Canada"
+  date: "November 2024"
+  pdf: "2024_11-OSIA.pdf"
+
+- title: "Nipoppy: A framework for the organization and decentralized processing of neuroimaging-clinical studies"
+  event: "OHBM Annual Meeting"
+  location: "Seoul, South Korea"
+  date: "June 2024"
+  pdf: "2024_06-OHBM.pdf"

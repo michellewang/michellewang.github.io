@@ -1,0 +1,31 @@
+name: HTML proofer
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 0 1 * *'
+
+jobs:
+  checklinks:
+    name: Check for broken links
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.3.5
+      - name: Setup Rubygems, Bundler, jekyll
+        run: | 
+          gem update --system --no-document
+          gem update bundler --no-document
+          gem install jekyll bundler
+          bundle install
+      - name: Build jekyll website with drafts
+        run: bundle exec jekyll build --drafts
+      - name: Check for broken links
+        run: |
+          bundle exec htmlproofer --no-enforce-https --ignore-status-codes "999" --log-level :debug ./_site

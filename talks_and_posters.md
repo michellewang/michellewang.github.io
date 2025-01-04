@@ -7,7 +7,7 @@ layout: default
 {% for info in site.data.talks %}
 
 <div class="talk-info">
-<h3>{{ info.event }}<span> — {{ info.location }} ({{ info.date }})</span></h3>
+<h4>{{ info.event }}<span> — {{ info.location }} ({{ info.date }})</span></h4>
 {{ info.title }}
 {% if info.pdf %}
 [<a href="{{ site.url }}/assets/pdfs/talks/{{ info.pdf }}" target="_blank">slides</a>]
@@ -21,7 +21,7 @@ layout: default
 {% for info in site.data.posters %}
 
 <div class="poster-info">
-<h3>{{ info.event }}<span> — {{ info.location }} ({{ info.date }})</span></h3>
+<h4>{{ info.event }}<span> — {{ info.location }} ({{ info.date }})</span></h4>
 {% if info.pdf %}
 <a href="{{ site.url }}/assets/pdfs/posters/{{ info.pdf }}" target="_blank">
 {% endif %}

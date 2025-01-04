@@ -19,4 +19,4 @@ jobs:
       - name: Codespell
         uses: codespell-project/actions-codespell@v2
         with:
-          skip: Gemfile.lock,_config.yml,syntax-highlighting.scss
+          skip: Gemfile.lock,_config.yml,syntax-highlighting.scss,*.pdf

@@ -1,9 +1,6 @@
-name: CheckLinks
+name: HTML proofer
 on:
   push:
-    branches:
-      - main
-  pull_request:
     branches:
       - main
   schedule:
@@ -11,7 +8,7 @@ on:
 
 jobs:
   checklinks:
-    name: Linux
+    name: Check for broken links
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -20,7 +17,7 @@ jobs:
       - name: Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.3.x
+          ruby-version: 3.3.5
       - name: Setup Rubygems, Bundler, jekyll
         run: | 
           gem update --system --no-document
@@ -31,10 +28,4 @@ jobs:
         run: bundle exec jekyll build --drafts
       - name: Check for broken links
         run: |
-          bundle exec htmlproofer --no-enforce-https --ignore-status-codes "999" --log-level :debug ./_site &> links.log
-        continue-on-error: true
-      - name: Archive log links
-        uses: actions/upload-artifact@v4
-        with:
-          name: links-check.log
-          path: links.log
+          bundle exec htmlproofer --no-enforce-https --ignore-status-codes "999" --log-level :debug ./_site

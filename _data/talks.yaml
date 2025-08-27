@@ -4,6 +4,24 @@
 #   date: ""
 #   pdf: 
 
+- title: "Assessing analytical variability with Nipoppy"
+  event: "OHBM 2025 Educational Course: Practical course to understand, assess, and deal with analytical variability of brain imaging pipeline"
+  location: "Brisbane, Australia"
+  date: "June 2025"
+  pdf: "2025_06_OHBM_educational_course.pdf"
+
+- title: "Benchmarking federated learning approaches against siloed and mega-analysis regimes"
+  event: "OHBM Neuroimaging Statistics Workshop 2025"
+  location: "Brisbane, Australia"
+  date: "June 2025"
+  pdf: "2025_06-OHBM_neuroimaging_statistics.pdf"
+
+- title: "Nipoppy and Neurobagel: Practical tools to navigate barriers for FAIR research"
+  event: "Open Minds, Open Data: The Taiwan Open Brain Science Workshop 2025"
+  location: "Taipei, Taiwan"
+  date: "June 2025"
+  pdf: "2025_06-Taiwan_open_brain_science.pdf"
+
 - title: "Nipoppy: A framework for the organization and decentralized processing of neuroimaging-clinical studies"
   event: "Open Science in Action Symposium"
   location: "Montreal, Canada"

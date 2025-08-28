@@ -3,6 +3,7 @@
 #   location: ""
 #   date: ""
 #   pdf: 
+#   video: 
 
 - title: "Assessing analytical variability with Nipoppy"
   event: "OHBM 2025 Educational Course: Practical course to understand, assess, and deal with analytical variability of brain imaging pipeline"
@@ -33,3 +34,4 @@
   location: "Seoul, South Korea"
   date: "June 2024"
   pdf: "2024_06-OHBM.pdf"
+  video: "https://youtu.be/2sgp38QbeHY?si=GVUPEJa-Jh7TcopY"

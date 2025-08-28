@@ -4,6 +4,12 @@
 #   date: ""
 #   pdf: 
 
+- title: "Benchmarking federated learning approaches against siloed and mega-analysis regimes"
+  event: "OHBM Annual Meeting"
+  location: "Brisbane, Australia"
+  date: "June 2025"
+  pdf: "2025_06-OHBM.pdf"
+
 - title: "Nipoppy and Neurobagel: Decentralized infrastructure for FAIR neuroimaging-clinical datasets"
   event: "BIC Scientific Day"
   location: "Montreal, Canada"

@@ -9,6 +9,9 @@ layout: default
 <div class="talk-info">
 <h4>{{ info.event }}<span> — {{ info.location }} ({{ info.date }})</span></h4>
 {{ info.title }}
+{% if info.video %}
+[<a href="{{ info.video }}" target="_blank">recording</a>]
+{% endif %}
 {% if info.pdf %}
 [<a href="{{ site.url }}/assets/pdfs/talks/{{ info.pdf }}" target="_blank">slides</a>]
 {% endif %}

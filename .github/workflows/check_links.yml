@@ -28,4 +28,4 @@ jobs:
         run: bundle exec jekyll build --drafts
       - name: Check for broken links
         run: |
-          bundle exec htmlproofer --no-enforce-https --ignore-status-codes "999" --log-level :debug ./_site
+          bundle exec htmlproofer --no-enforce-https --ignore-status-codes "999" --log-level :debug ./_site --typhoeus='{ "cache": { "timeframe": { "external": "1d" } } }'

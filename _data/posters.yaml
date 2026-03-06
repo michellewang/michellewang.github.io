@@ -5,6 +5,18 @@
 #   pdf: 
 
 - title: "Benchmarking federated learning approaches against siloed and mega-analysis regimes"
+  event: "QLS Research Day 2026"
+  location: "Montreal, Canada"
+  date: "February 2026"
+  pdf: "2025_12-MAIN.pdf"
+
+- title: "Benchmarking federated learning approaches against siloed and mega-analysis regimes"
+  event: "MAIN 2025"
+  location: "Montreal, Canada"
+  date: "December 2025"
+  pdf: "2025_12-MAIN.pdf"
+
+- title: "Benchmarking federated learning approaches against siloed and mega-analysis regimes"
   event: "OHBM Annual Meeting"
   location: "Brisbane, Australia"
   date: "June 2025"

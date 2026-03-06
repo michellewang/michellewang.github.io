@@ -1,3 +1,5 @@
+@use 'variables' as *;
+
 /* Project Page */
 .ProjectContainer {
   max-width: 800px;
@@ -17,13 +19,14 @@
   flex: 1 0 200px;
   border-radius: 15px;
   background: $projectbox;
-  @media (prefers-color-scheme: dark) {
-    background: $projectbox-dark;
-  }
   height: 200px;
   width: 100%;
   overflow: hidden;
   display: table;
+
+  @media (prefers-color-scheme: dark) {
+    background: $projectbox-dark;
+  }
 }
 
 .projectTile a {
@@ -60,7 +63,7 @@
 }
 
 @include media-query($on-phone) {
-  @media screen and (max-width: $on-phone){
+  @media screen and (max-width: $on-phone) {
 
     .projectTile {
       height: 80px;
@@ -83,7 +86,7 @@
 }
 
 @include media-query($on-palm) {
-  @media screen and (max-width: $on-palm){
+  @media screen and (max-width: $on-palm) {
 
     .projectTile {
       height: 100px;

@@ -1,15 +1,15 @@
 $base-font-family: 'Work Sans', sans-serif;
-$base-font-size:   20px;
+$base-font-size: 20px;
 $base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
+$small-font-size: $base-font-size * 0.875;
 $base-line-height: 1.7;
 
-$spacing-unit:     30px;
+$spacing-unit: 30px;
 $light-gray: gray;
-$text-color:       #333;
+$text-color: #333;
 $background-color: #fdfdfd;
-$brand-color:      #0097A9;
-$projectbox-text:  #1e2126;
+$brand-color: #0097A9;
+$projectbox-text: #1e2126;
 
 // Color scheme for light
 $body-bg: #fdfdfd;
@@ -20,3 +20,15 @@ $text-color: #333;
 $body-bg-dark: #23272d;
 $projectbox-dark: #7fcbd4;
 $text-color-dark: #98a0ac;
+
+// Width of the content area
+$content-width: 800px;
+$on-phone: 450px;
+$on-palm: 660px;
+$on-laptop: 1000px;
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}

@@ -5,11 +5,18 @@
 #   pdf: 
 #   video: 
 
+- title: "Enabling efficient federated neuroimaging studies through FAIR infrastructure"
+  event: "OHBM Annual Meeting"
+  location: "Bordeaux, France"
+  date: "June 2026"
+  pdf: "2026_06-OHBM.pdf"
+
 - title: "Assessing analytical variability with Nipoppy"
   event: "OHBM 2025 Educational Course: Practical course to understand, assess, and deal with analytical variability of brain imaging pipeline"
   location: "Brisbane, Australia"
   date: "June 2025"
-  pdf: "2025_06_OHBM_educational_course.pdf"
+  pdf: "2025_06-OHBM_educational_course.pdf"
+  video: "https://youtu.be/siCdrER2lFg?si=DldZC16umtZpzk_a"
 
 - title: "Benchmarking federated learning approaches against siloed and mega-analysis regimes"
   event: "OHBM Neuroimaging Statistics Workshop 2025"

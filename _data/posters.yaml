@@ -4,6 +4,12 @@
 #   date: ""
 #   pdf: 
 
+- title: "Federated learning of neurodegenerative disease progression"
+  event: "OHBM Annual Meeting"
+  location: "Bordeaux, France"
+  date: "June 2026"
+  pdf: "2026_06-OHBM.pdf"
+
 - title: "Benchmarking federated learning approaches against siloed and mega-analysis regimes"
   event: "QLS Research Day 2026"
   location: "Montreal, Canada"
